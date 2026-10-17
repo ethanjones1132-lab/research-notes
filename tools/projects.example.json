@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "example-app": {
+      "path": "C:/code/example-app",
+      "default_branch": "main",
+      "push": true,
+      "link_dirs": ["node_modules"],
+      "verify": [{"cmd": "npm run build && npm test", "cwd": "."}]
+    }
+  },
+  "worker_py": "C:/path/to/worker.py",
+  "worktree_root": "C:/rh-wt"
+}
